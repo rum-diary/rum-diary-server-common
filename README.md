@@ -1,6 +1,6 @@
-# rum-diary-metrics-collection-server
+# rum-diary-server-common
 
-Metrics collection server for rum-diary.org
+Common functionality across rum-diary servers.
 
 ## Prerequisites:
 
@@ -9,14 +9,8 @@ Metrics collection server for rum-diary.org
 
 ## Installation
 
-1. Fork and clone [the repo](https://github.com/shane-tomlinson/rum-diary-metrics-collection-server) from GitHub - https://github.com/shane-tomlinson/rum-diarymetrics-collection-server/
+1. Fork and clone [the repo](https://github.com/rum-diary/rum-diary-server-common) from GitHub - https://github.com/rum-diary/rum-diary-server-common/
 2. `npm install`
-3. Copy `server/etc/local.json-sample` to `server/etc/local.json`
-4. In `server/etc/local.json`, modify the value of `session_cookie_secret`
-
-## Run the server
-
-1. `npm start`
 
 ## Back end tests
 
@@ -32,18 +26,6 @@ Metrics collection server for rum-diary.org
 * @shane_tomlinson
 
 ## Get involved:
-
-Lots of work needs to be done! I obviously am not a designer, marketer, database administrator, or data engineer. Work needs done everywhere, from the landing page, through to capturing data in a privacy sensitive way and presenting awesome insights to site operators.
-
-More concretely:
-
-* Ensure a site visitor's privacy is respected through anonymisation and aggregation.
-* Present site administrators with visitor valuable insights.
-* Simplify site administration.
-* Make the site aesthetically beautiful.
-* Simplify local deployment.
-* Crunch numbers in a performant way.
-
 ## License:
 This software is available under version 2.0 of the MPL:
 
