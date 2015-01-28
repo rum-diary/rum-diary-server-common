@@ -15,6 +15,6 @@ module.exports = function (options) {
     return self.headers[headerName];
   };
 
-  this.session = options.session || {};
+  this.session = 'session' in options ? options.session : {};
 };
 
