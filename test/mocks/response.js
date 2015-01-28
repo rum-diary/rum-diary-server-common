@@ -5,6 +5,7 @@
 'use strict';
 
 function ResponseMock() {
+  this.locals = {};
 }
 
 ResponseMock.prototype = {
