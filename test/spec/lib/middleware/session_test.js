@@ -8,11 +8,9 @@ var assert = require('chai').assert;
 var session = require('../../../../lib/middleware/session');
 var RequestMock = require('../../../mocks/request');
 var ResponseMock = require('../../../mocks/response');
-var sinon = require('sinon');
 
 describe('lib/middleware/session', function () {
   var middleware;
-  var req;
   var res;
 
   var sessionStore = {
